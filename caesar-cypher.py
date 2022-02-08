@@ -15,6 +15,20 @@ except ValueError:
   print("Please enter an actual number!")
   exit()
 
+question = input("Encrypt or decrypt? ")
+question = question.lower()
+
+if question == "e" or question == "encrypt":
+  question == "e"
+elif question == "d" or question == "decrypt":
+  question == "d"
+else:
+  print("PLEASE ENTER A REAL VALID ANSWER!")
+  exit()
+
+if question == "e":
+  shift_amount = -shift_amount
+
 if shift_amount > 26:
   shift_amount = shift_amount % 26
 if shift_amount < 0:
