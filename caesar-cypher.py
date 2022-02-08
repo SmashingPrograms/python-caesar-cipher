@@ -26,7 +26,7 @@ else:
   print("PLEASE ENTER A REAL VALID ANSWER!")
   exit()
 
-if question == "e":
+if question == "d":
   shift_amount = -shift_amount
 
 if shift_amount > 26:
